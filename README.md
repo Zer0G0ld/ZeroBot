@@ -40,6 +40,7 @@ pip install -r requirements.txt
 ### Ainda em fase de desenvolvimento ...
 na pasta de música tem que ser instalado o ffmpeg
 
-Linux```
+Linux
+```
 sudo apt-get install ffmpeg
 ```
