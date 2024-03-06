@@ -1,1 +1,6 @@
 discord.py==1.7.3
+yt-dlp==2023.12.30
+asyncio==3.4.3
+async-timeout==3.0.1
+PyNaCl==1.4.0
+youtube-dl==2021.12.17

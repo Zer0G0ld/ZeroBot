@@ -35,3 +35,11 @@ deactivate
 ```
 pip install -r requirements.txt
 ```
+
+## Bot de música
+### Ainda em fase de desenvolvimento ...
+na pasta de música tem que ser instalado o ffmpeg
+
+Linux```
+sudo apt-get install ffmpeg
+```
