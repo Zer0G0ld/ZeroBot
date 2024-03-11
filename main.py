@@ -15,6 +15,15 @@ bot = commands.Bot(command_prefix="!", intents=intents, description=description)
 async def on_ready():
     print(f"Tô dentro! Eu me chamo {bot.user.name}")
 
+    # Faz uma saudação sempre que é iniciado
+    # Manda para todos os canais de texto
+    for guild in bot.guilds:
+        for channel in guild.text_channels:
+            if channel.permissions_for(guild.me).send_messages:
+                with open('src/saudacao.gif', 'rb') as f:
+                    picture = discord.File(f)
+                    await channel.send("Olá! Estou online e pronto para interagir.",
+
 @bot.event
 async def on_message(message):
     print(f"Menssagem Recebida: {message.content} ") # Apenas para depuração, fora disso é anti ético
