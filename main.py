@@ -22,7 +22,7 @@ async def on_ready():
             if channel.permissions_for(guild.me).send_messages:
                 with open('src/saudacao.gif', 'rb') as f:
                     picture = discord.File(f)
-                    await channel.send("Olá! Estou online e pronto para interagir.",
+                    await channel.send("Olá! Estou online e pronto para interagir.", file=picture)
 
 @bot.event
 async def on_message(message):
