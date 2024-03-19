@@ -10,7 +10,7 @@ dentro da pasta Zery0 tem um bot interativo com alguns comandos basicos e faciei
 ## Instalação via Git
 
 ```
-git clone https://github.com/Zer0G0ld/BotZabbix.git
+git clone https://github.com/Zer0G0ld/Zero
 ```
 
 # Ambiente Virtual - AV
